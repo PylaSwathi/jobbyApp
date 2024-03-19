@@ -1,0 +1,43 @@
+.similar-job-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 420px;
+  width: 300px;
+  background-color: #272727;
+  border-radius: 5px;
+  color: white;
+  margin: 30px;
+  margin-left: 0px;
+}
+.similar-item-head {
+  font-size: 20px;
+  margin-left: 20px;
+}
+.similar-item-para {
+  font-size: 15px;
+  padding: 10px;
+  padding-top: 0px;
+}
+.similar-job-item-location-item {
+  color: white;
+  margin-left: 30px;
+}
+.similar-job-location-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80%;
+}
+.similar-job-item-location-item {
+  height: 15px;
+  width: 15px;
+  color: white;
+  margin: 5px;
+  background-color: black;
+}
+
+.similar-job-item-location-name {
+  margin-right: 30px;
+}

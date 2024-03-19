@@ -1,0 +1,122 @@
+.job-details-bg-container {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vw;
+
+  background-size: cover;
+}
+
+.job-details-container {
+  width: 80%;
+  background-color: #272727;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+  margin-bottom: 30px;
+  background-size: cover;
+  margin-top: 40px;
+}
+.mar {
+  margin-left: 75%;
+}
+.job-details-desc-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+}
+.anchor-link {
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 5px;
+}
+.anchor-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #6366f1;
+  text-decoration: none;
+  cursor: pointer;
+}
+.anchor-logo {
+  height: 20px;
+  width: 20px;
+}
+.job-details-desc {
+  font-size: 17px;
+  padding: 10px;
+  margin-top: 0px;
+  margin: 10px;
+}
+.job-details-head {
+  font-size: 20px;
+  margin-left: 20px;
+}
+.job-details-description {
+  font-size: 20px;
+}
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 20px;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin-top: 0px;
+}
+.job-detail-life-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+.job-detail-para {
+  width: 60%;
+  font-size: 20px;
+}
+.head {
+  align-self: flex-start;
+  margin-left: 11%;
+}
+.similar-jobs-details-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.job-details-failure-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+  background-color: black;
+  color: white;
+}
+.job-details-failure-img {
+  height: 30%;
+  width: 30%;
+}
+.failure-btn {
+  height: 40px;
+  width: 150px;
+  background-color: #6366f1;
+  border-width: 0px;
+  color: white;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+}

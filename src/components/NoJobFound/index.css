@@ -1,0 +1,13 @@
+.no-job-found-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding: 0px;
+  color: white;
+}
+.no-job-image {
+  height: 50%;
+  width: 50%;
+}
